@@ -1,0 +1,26 @@
+.navbar{
+    margin-top: .5em;
+    margin-bottom: 2em;
+}
+
+.orange-bg{
+    background-color: #feeae9;
+    padding: 1.5em 2em;
+    border-radius: 10px;
+}
+
+.price-tag{
+    color: #FF136F;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.buy-now{
+    background-color: #FF136F;
+    color: white;
+    border-radius: 15px;
+    padding: 1em 2em;
+    border-style: none;
+    font-size: 1.2em;
+    font-weight: 500;
+}
