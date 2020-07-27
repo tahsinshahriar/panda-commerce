@@ -1,9 +1,14 @@
-.navbar{
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* navigation design */
+.navbar, .carousel-bg, .category, .shoes, .backpack, .subscribe{
     margin-top: .5em;
     margin-bottom: 2em;
 }
 
-.orange-bg{
+/* carousel design */
+.carousel-bg{
     background-color: #feeae9;
     padding: 1.5em 2em;
     border-radius: 10px;
@@ -21,6 +26,124 @@
     border-radius: 15px;
     padding: 1em 2em;
     border-style: none;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
 }
+
+
+/* category design */
+.category {
+    cursor: pointer;
+}
+
+.category h2{
+    color: white;
+}
+
+.category img{
+    width: 100px;
+}
+
+.category-one{
+    background-image: linear-gradient(to right, #ffb347 0%, #ffcc33 51%, #ffb347 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.category-two{
+    background-image: linear-gradient(to right, #f857a6 0%, #ff5858 51%, #f857a6 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.category-three{
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+/* card sections */
+.section-header{
+    font-family: 'Pacifico', cursive;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 2.5em;
+}
+.card{
+    border-style: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 15px;
+}
+
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+
+.buy-now-card{
+    background-color: #FF136F;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    border-style: none;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #FF136F;
+}
+
+/* subscribe section */
+.subscribe{
+    background-color: #feeae9;
+    padding: 1.5em 2em;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.subscribe p{
+    color: dimgray;
+}
+
+.subscribe input{
+    margin-bottom: 1em;
+}
+
+input::placeholder{
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
+}
+
+.styled-text{
+    font-size: 2em;
+    font-weight: 500;
+}
+
+/* footer style */
+.footer{
+    background: url("");
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 1em;
+}
+
+.social-icons{
+    font-size: 1.5em;
+    /* border: 1px solid red; */
+}
+
+.social-icons a{
+    font-size: .75em;
+    padding-right: .5em;;
+}
+.social-icons i{
+    color:#696969;
+}
+
